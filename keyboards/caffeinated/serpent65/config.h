@@ -53,6 +53,11 @@ B0, which is unconnected on the PCB
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
 
+/* VIAL Configuration */
+#define VIAL_KEYBOARD_UID {0x22, 0x14, 0xE9, 0x67, 0x68, 0x8D, 0x33, 0xC9}
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 0 }
+#define VIAL_UNLOCK_COMBO_COLS { 4, 7 }
+
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
 
