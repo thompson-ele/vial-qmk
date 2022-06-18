@@ -1,0 +1,14 @@
+VIA_ENABLE = yes
+VIAL_ENABLE = yes
+VIAL_ENCODERS_ENABLE = yes
+LTO_ENABLE = yes
+OLED_ENABLE = yes	# OLED Screen Enable
+OLED_DRIVER = SSD1306
+WPM_ENABLE = yes
+
+# Disable settings to reduce keymap size
+TAP_DANCE_ENABLE = no
+RGBLIGHT_ENABLE = no
+COMBO_ENABLE = no
+KEY_OVERRIDE_ENABLE = no
+QMK_SETTINGS = no
