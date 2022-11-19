@@ -6,3 +6,12 @@
 
 #define VIAL_UNLOCK_COMBO_ROWS { 0, 2 }
 #define VIAL_UNLOCK_COMBO_COLS { 0, 11 }
+
+#define RGB_DI_PIN F4
+#ifdef  RGB_DI_PIN
+#define RGBLIGHT_ANIMATIONS
+#define RGBLIGHT_HUE_STEP 16
+#define RGBLIGHT_SAT_STEP 16
+#define RGBLIGHT_VAL_STEP 16
+#define RGBLIGHT_SLEEP
+#endif

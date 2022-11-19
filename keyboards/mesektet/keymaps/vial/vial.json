@@ -2,11 +2,19 @@
     "name": "Mesektet",
     "vendorId": "0x9348",
     "productId": "0x0001",
+    "matrix": {
+        "rows": 5,
+        "cols": 12
+    },
     "lighting": "qmk_rgblight",
-    "matrix": { "rows": 5, "cols": 12 },
     "layouts": {
       "labels": [
-        ["Bottom Row", "Center 3u", "Dual 3u", "7u"]
+        [
+            "Bottom Row",
+            "Center 3u",
+            "Dual 3u",
+            "7u"
+        ]
       ],
       "keymap": [
         [
